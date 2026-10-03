@@ -2,18 +2,19 @@
 
 Neue Website des **Badminton Verein Bergisch Gladbach 2004 e.V.** (aktuell unter [bv04.net](https://www.bv04.net)).
 
-Reine HTML/CSS-Seite ohne Baukasten – jede Datei kann direkt im Browser geöffnet werden.
+Die komplette Website steckt in einer einzigen Datei: **`index.html`**. Gestaltung, Logos und Script sind darin eingebaut – einfach im Browser öffnen.
 
-## Seiten
+## Aufbau der Seite
 
-| Datei | Inhalt |
+Alle Bereiche liegen untereinander auf einer Seite und werden über das Menü angesprungen:
+
+| Bereich | Inhalt |
 |---|---|
-| `index.html` | Startseite mit Terminen und Bereichs-Kacheln |
-| `verein.html` | Über den Verein |
-| `sportangebot.html` | Trainingszeiten (Kinder, Erwachsene, Familien) |
-| `mitgliedschaft.html` | Beiträge, Anmeldung, Downloads |
-| `wettkampf.html` | Wettkampf & News |
-| `kontakt.html` | Kontakt, Hallenzeiten, Impressum |
-| `satzung.html` | Vereinssatzung |
+| Start | Begrüßung, Kennzahlen, Termin-Leiste |
+| Verein | So lernst Du uns kennen |
+| Sportangebot | Trainingszeiten für Kinder, Erwachsene, Familie |
+| Mitgliedschaft | Beiträge, Anmeldung, Downloads |
+| Wettkampf & News | Vereinsmeisterschaft, fleißigste Spieler, internationale Ergebnisse |
+| Kontakt | Adresse, Telefon, E-Mail, Hallenzeiten, Impressum |
 
-Gemeinsam genutzt: `styles.css` (Gestaltung), `script.js` (Mobil-Menü, Tabs), `assets/` (Logos).
+Eine frühere mehrseitige Fassung ist im Commit-Verlauf gespeichert (Commit `42c9cc3`).
